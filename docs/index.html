@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Senku Cuts</title>
+<style>
+  :root { --bg:#0d1016; --card:#151a22; --line:#232b36; --text:#e8edf3; --muted:#8b97a5; --accent:#fe2c55; }
+  * { margin:0; padding:0; box-sizing:border-box }
+  body { background:var(--bg); color:var(--text); font:16px/1.65 -apple-system,Segoe UI,Roboto,sans-serif;
+         display:flex; justify-content:center; padding:60px 20px }
+  .wrap { max-width:720px; width:100% }
+  h1 { font-size:34px; letter-spacing:-.01em; margin-bottom:10px }
+  .sub { color:var(--muted); margin-bottom:36px }
+  h2 { font-size:20px; margin:32px 0 10px }
+  p { color:#cbd4de; margin-bottom:12px }
+  ul { color:#cbd4de; margin:0 0 12px 20px }
+  li { margin-bottom:6px }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:24px 26px; margin-bottom:18px }
+  a { color:var(--accent) }
+  footer { margin-top:40px; color:var(--muted); font-size:14px; border-top:1px solid var(--line); padding-top:18px }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Senku Cuts</h1>
+  <div class="sub">A desktop tool for preparing short vertical clips from my own gameplay recordings.</div>
+
+  <div class="card">
+    <h2>What it does</h2>
+    <p>Senku Cuts runs locally on the owner's computer. It takes a long gameplay recording, transcribes the
+       narration, splits the recording into parts at natural sentence boundaries, and renders vertical
+       1080&times;1920 clips with burned-in subtitles.</p>
+    <p>The finished clips are uploaded to the owner's own TikTok account as drafts. Nothing is published
+       automatically — the owner reviews each draft inside the TikTok app and decides whether to post it.</p>
+  </div>
+
+  <div class="card">
+    <h2>Who it is for</h2>
+    <p>This is a single-user tool built for one creator to manage their own content. It does not offer
+       accounts, sign-ups, or services to other people.</p>
+  </div>
+
+  <div class="card">
+    <h2>TikTok permissions used</h2>
+    <ul>
+      <li><strong>user.info.basic</strong> — to confirm which account the clips are being uploaded to.</li>
+      <li><strong>video.upload</strong> — to place finished clips into the account's drafts.</li>
+    </ul>
+    <p>The application does not publish content, does not read other users' data, and does not access
+       anything beyond the account that authorized it.</p>
+  </div>
+
+  <p><a href="tos.html">Terms of Service</a> &nbsp;·&nbsp; <a href="privacy.html">Privacy Policy</a></p>
+
+  <footer>Contact: <a href="mailto:CONTACT@EXAMPLE.COM">CONTACT@EXAMPLE.COM</a></footer>
+</div>
+</body>
+</html>

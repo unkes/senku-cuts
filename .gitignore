@@ -1,0 +1,12 @@
+# исходники и рендеры рядом не держим — они тяжёлые
+*.mp4
+*.mov
+*.wav
+*.ass
+clips/
+transcript.json
+cuts.json
+fonts/*.ttf
+__pycache__/
+*.log
+*.err
